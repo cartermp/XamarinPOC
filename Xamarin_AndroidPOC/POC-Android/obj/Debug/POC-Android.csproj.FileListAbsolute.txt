@@ -1,0 +1,30 @@
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\bin\Debug\POC-Android.dll
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\bin\Debug\POC-Android.pdb
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\bin\Debug\POC-Android.dll.mdb
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\bin\Debug\POC_Android.POC_Android.apk
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\bin\Debug\POC_Android.POC_Android-Signed.apk
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\POC-Android.csprojResolveAssemblyReference.cache
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\POC-Android.dll
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\POC-Android.pdb
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\android\bin\POC_Android.POC_Android.apk
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\res\layout\main.xml
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\res\values\strings.xml
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\res\drawable\icon.png
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\R.cs.flag
+c:\users\phillip.carter\documents\visual studio 2013\Projects\POC-Android\POC-Android\obj\Debug\uploadflags.txt
+C:\yes\POC-Android\POC-Android\bin\Debug\POC-Android.dll
+C:\yes\POC-Android\POC-Android\bin\Debug\POC-Android.pdb
+C:\yes\POC-Android\POC-Android\bin\Debug\POC-Android.dll.mdb
+C:\yes\POC-Android\POC-Android\bin\Debug\POC_Android.POC_Android.apk
+C:\yes\POC-Android\POC-Android\bin\Debug\POC_Android.POC_Android-Signed.apk
+C:\yes\POC-Android\POC-Android\bin\Debug\GooglePlayServicesLib.dll
+C:\yes\POC-Android\POC-Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\yes\POC-Android\POC-Android\obj\Debug\POC-Android.dll
+C:\yes\POC-Android\POC-Android\obj\Debug\POC-Android.pdb
+C:\yes\POC-Android\POC-Android\obj\Debug\android\bin\POC_Android.POC_Android.apk
+C:\yes\POC-Android\POC-Android\obj\Debug\res\layout\main.xml
+C:\yes\POC-Android\POC-Android\obj\Debug\res\values\strings.xml
+C:\yes\POC-Android\POC-Android\obj\Debug\res\drawable\icon.png
+C:\yes\POC-Android\POC-Android\obj\Debug\R.cs.flag
+C:\yes\POC-Android\POC-Android\obj\Debug\uploadflags.txt
+C:\yes\POC-Android\POC-Android\obj\Debug\POC-Android.csprojResolveAssemblyReference.cache
