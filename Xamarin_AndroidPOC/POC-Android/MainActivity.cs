@@ -16,10 +16,12 @@ using Android.Graphics;
 
 namespace POC_Android
 {
+    /// <summary>
+    /// As the name would indicate, this is the main activity.
+    /// </summary>
     [Activity(Label = "POC_Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity, IGoogleApiClientConnectionCallbacks, IGoogleApiClientOnConnectionFailedListener
     {
-        private bool mCoudUseGooglePlayServices;
         int count = 1;
 
         Location mLastLocation;
@@ -31,7 +33,9 @@ namespace POC_Android
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
-            mCoudUseGooglePlayServices = IsGooglePlayServiceAvailable();
+            mImageView = FindViewById<ImageView>(Resource.Id.imageView1);
+
+            DoOnClickhandlers();
 
             mGoogleApiClient = new GoogleApiClientBuilder(this)
                                    .AddConnectionCallbacks(this)
@@ -39,18 +43,26 @@ namespace POC_Android
                                    .AddApi(LocationServices.Api)
                                    .Build();
 
-            mImageView = FindViewById<ImageView>(Resource.Id.imageView1);
-
             CreateDirectoryForPictures();
-            DoOnClickhandlers();
         }
 
+        /// <summary>
+        /// Explicitly overriden to connect the Google API Client due
+        /// to disconnecting on OnStop().
+        /// </summary>
         protected override void OnStart()
         {
             base.OnStart();
-            mGoogleApiClient.Connect();
+
+            if (IsGooglePlayServiceAvailable())
+            {
+                mGoogleApiClient.Connect();
+            }
         }
 
+        /// <summary>
+        /// Explicitly disconnects the Google API Client to prevent memory leaks.
+        /// </summary>
         protected override void OnStop()
         {
             mGoogleApiClient.Disconnect();
@@ -59,12 +71,18 @@ namespace POC_Android
 
         #region Location Callbacks
 
-        public void OnConnected(Bundle connectionHint)
+        /// <summary>
+        /// Callback for when GPlay Services connects with the device.
+        /// Calls the GPlay Location Services for a location request.
+        /// </summary>
+        public void OnConnected(Bundle args)
         {
             mLastLocation = LocationServices.FusedLocationApi.GetLastLocation(mGoogleApiClient);
             if (mLastLocation != null)
             {
-                Toast.MakeText(this, "Found location.  Lat=" + mLastLocation.Latitude + " Lng=" + mLastLocation.Longitude, ToastLength.Short).Show();
+                Toast.MakeText(this, 
+                               string.Format("Lat:{0}, Lng:{1}", mLastLocation.Latitude, mLastLocation.Longitude),
+                               ToastLength.Short).Show();
             }
         }
 
@@ -81,6 +99,12 @@ namespace POC_Android
 
         #endregion
 
+        /// <summary>
+        /// Callback for when MainActivity is activated by an Intent with a Result.
+        /// 
+        /// In this case, when the user is finished using the camera, it comes back to
+        /// MainActivity with the Image taken on the phone.
+        /// </summary>
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
@@ -99,6 +123,9 @@ namespace POC_Android
             mImageView.SetImageBitmap(App.Bitmap);
         }
 
+        /// <summary>
+        /// Quick method for setting up OnClick handlers.
+        /// </summary>
         private void DoOnClickhandlers()
         {
             var helloButton = FindViewById<Button>(Resource.Id.HelloButton);
@@ -111,12 +138,20 @@ namespace POC_Android
             mapsButton.Click += delegate { LauchGoogleMaps(); };
         }
 
+        /// <summary>
+        /// Utility for ensuring the device can connect to GPlay Services.
+        /// </summary>
+        /// <returns></returns>
         private bool IsGooglePlayServiceAvailable()
         {
             int result = GooglePlayServicesUtil.IsGooglePlayServicesAvailable(this);
             return result == ConnectionResult.Success || GooglePlayServicesUtil.IsUserRecoverableError(result);
         }
 
+        /// <summary>
+        /// Quick Method for launching the Camera.  Launches the camera with an intent
+        /// to save the image taken to phone storage.
+        /// </summary>
         private void LauchCamera()
         {
             Intent picIntent = new Intent(MediaStore.ActionImageCapture);
@@ -126,6 +161,9 @@ namespace POC_Android
             StartActivityForResult(picIntent, 0);
         }
 
+        /// <summary>
+        /// Quick method for creating an image directory.
+        /// </summary>
         private void CreateDirectoryForPictures()
         {
             App.Dir = new File(Android.OS.Environment.GetExternalStoragePublicDirectory(
@@ -136,6 +174,9 @@ namespace POC_Android
             }
         }
 
+        /// <summary>
+        /// Quick method for launching Google Maps and having it center on the last known location.
+        /// </summary>
         private void LauchGoogleMaps()
         {
             var geoUri = Android.Net.Uri.Parse(string.Format("geo:{0},{1}", mLastLocation.Latitude, mLastLocation.Longitude));
@@ -143,6 +184,9 @@ namespace POC_Android
             StartActivity(mapIntent);
         }
 
+        /// <summary>
+        /// Container for image-related stuff.
+        /// </summary>
         public static class App
         {
             public static File File;
