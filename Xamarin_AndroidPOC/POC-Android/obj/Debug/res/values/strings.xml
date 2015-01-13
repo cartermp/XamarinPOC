@@ -1,1 +1,1 @@
-<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">POC-Android</string></resources>
+<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">POC-Android</string><string name="openCamera">Open Camera</string></resources>

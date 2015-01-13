@@ -364,8 +364,14 @@ namespace POC_Android
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f090018
+			public const int CameraButton = 2131296280;
+			
+			// aapt resource value: 0x7f090019
+			public const int GoogleMapsButton = 2131296281;
+			
 			// aapt resource value: 0x7f090017
-			public const int CameraButton = 2131296279;
+			public const int HelloButton = 2131296279;
 			
 			// aapt resource value: 0x7f090000
 			public const int adjust_height = 2131296256;
@@ -402,6 +408,9 @@ namespace POC_Android
 			
 			// aapt resource value: 0x7f090003
 			public const int hybrid = 2131296259;
+			
+			// aapt resource value: 0x7f09001a
+			public const int imageView1 = 2131296282;
 			
 			// aapt resource value: 0x7f09000e
 			public const int match_parent = 2131296270;
@@ -598,6 +607,9 @@ namespace POC_Android
 			
 			// aapt resource value: 0x7f060003
 			public const int decline = 2131099651;
+			
+			// aapt resource value: 0x7f060025
+			public const int openCamera = 2131099685;
 			
 			// aapt resource value: 0x7f060001
 			public const int store_picture_message = 2131099649;

@@ -454,7 +454,9 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020021;
     }
     public static final class id {
-        public static final int CameraButton=0x7f090017;
+        public static final int CameraButton=0x7f090018;
+        public static final int GoogleMapsButton=0x7f090019;
+        public static final int HelloButton=0x7f090017;
         public static final int adjust_height=0x7f090000;
         public static final int adjust_width=0x7f090001;
         public static final int book_now=0x7f090010;
@@ -467,6 +469,7 @@ containing a value of this type.
         public static final int holo_dark=0x7f090007;
         public static final int holo_light=0x7f090008;
         public static final int hybrid=0x7f090003;
+        public static final int imageView1=0x7f09001a;
         public static final int match_parent=0x7f09000e;
         public static final int monochrome=0x7f090016;
         public static final int none=0x7f090002;
@@ -594,6 +597,7 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
+        public static final int openCamera=0x7f060025;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
         /**  Text on a placeholder buy button when Google Play services is not
