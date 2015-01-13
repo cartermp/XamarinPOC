@@ -96,6 +96,7 @@ namespace POC_Android
             int width = mImageView.Width;
 
             App.Bitmap = App.File.Path.LoadAndResizeBitmap(width, height);
+            mImageView.SetImageBitmap(App.Bitmap);
         }
 
         private void DoOnClickhandlers()
@@ -137,7 +138,9 @@ namespace POC_Android
 
         private void LauchGoogleMaps()
         {
-            // not yet
+            var geoUri = Android.Net.Uri.Parse(string.Format("geo:{0},{1}", mLastLocation.Latitude, mLastLocation.Longitude));
+            var mapIntent = new Intent(Intent.ActionView, geoUri);
+            StartActivity(mapIntent);
         }
 
         public static class App
