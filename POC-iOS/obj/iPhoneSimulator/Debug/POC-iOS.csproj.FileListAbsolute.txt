@@ -1,0 +1,11 @@
+C:\X\Xamarin\POC-iOS\bin\iPhoneSimulator\Debug\POCiOS.exe
+C:\X\Xamarin\POC-iOS\bin\iPhoneSimulator\Debug\POCiOS.pdb
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\6-view-7.nib
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\Info.plist
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\Default-568h@2x.png
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\POC-iOS.csprojResolveAssemblyReference.cache
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\POCiOS.exe
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\POCiOS.pdb
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-17.nib
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\85-view-86.nib
+C:\X\Xamarin\POC-iOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-85.nib
