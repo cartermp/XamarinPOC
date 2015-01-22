@@ -1,0 +1,3 @@
+/Users/rikkigibson/Documents/XamarinPOC/POC-Android/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/rikkigibson/Documents/XamarinPOC/POC-Android/bin/Debug/Util.dll
+/Users/rikkigibson/Documents/XamarinPOC/POC-Android/bin/Debug/Util.dll.mdb

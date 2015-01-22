@@ -1,0 +1,5 @@
+/Users/rikkigibson/Documents/XamarinPOC/Util/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/rikkigibson/Documents/XamarinPOC/Util/bin/Debug/Util.dll.mdb
+/Users/rikkigibson/Documents/XamarinPOC/Util/bin/Debug/Util.dll
+/Users/rikkigibson/Documents/XamarinPOC/Util/obj/Debug/Util.dll
+/Users/rikkigibson/Documents/XamarinPOC/Util/obj/Debug/Util.dll.mdb

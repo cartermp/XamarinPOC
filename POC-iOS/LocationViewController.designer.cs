@@ -16,10 +16,18 @@ namespace POC_iOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel LocationLabel { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		MapKit.MKMapView MapView { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (LocationLabel != null) {
+				LocationLabel.Dispose ();
+				LocationLabel = null;
+			}
 			if (MapView != null) {
 				MapView.Dispose ();
 				MapView = null;

@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="POC-Android/POC-Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="Android.Nexus_5_API_21_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="POC-Android/MainActivity.cs">
+    <Files>
+      <File FileName="POC-iOS/LocationViewController.cs" Line="57" Column="57" />
+      <File FileName="POC-Android/MainActivity.cs" Line="6" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

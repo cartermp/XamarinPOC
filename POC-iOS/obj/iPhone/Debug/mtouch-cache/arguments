@@ -1,0 +1,29 @@
+# Version: 8.6.0.51 (dfb682f)
+# [first argument, ignore] # /Users/rikkigibson/Documents/XamarinPOC/POC-iOS/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.0.51/bin/mtouch-64 \
+	--cache \
+	/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/mtouch-cache \
+	--dev \
+	/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/bin/iPhone/Debug/POCiOS.app \
+	--executable \
+	POCiOS \
+	--debug \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.1 \
+	--targetver \
+	8.0 \
+	--abi=armv7,arm64 \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/bin/iPhone/Debug//POCiOS.exe \

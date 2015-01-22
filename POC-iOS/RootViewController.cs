@@ -8,6 +8,8 @@ namespace POC_iOS
 {
     public partial class RootViewController : UITableViewController
     {
+		public UIImage PickedImage { get; private set; }
+
         public RootViewController(IntPtr handle)
             : base(handle)
         {
@@ -24,7 +26,25 @@ namespace POC_iOS
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
             tableView.DeselectRow(indexPath, true);
+
+			// the index of the photo picker row. this is naughty, I know.
+			if (indexPath.Row == 1)
+			{
+				var controller = new UIImagePickerController();
+				controller.SourceType = UIImagePickerControllerSourceType.Camera;
+				controller.FinishedPickingImage += FinishedPickingImage;
+
+				PresentViewController(controller,
+					animated: true,
+					completionHandler: () => { });
+			}
         }
+
+		public void FinishedPickingImage(object sender, UIImagePickerImagePickedEventArgs e)
+		{
+			this.PickedImage = e.Image;
+			PerformSegue("photo", this);
+		}
 
         #region View lifecycle
 

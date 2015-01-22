@@ -1,0 +1,13 @@
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/6-view-7.nib
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/85-view-86.nib
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/Info.plist
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/UIViewController-17.nib
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/UIViewController-85.nib
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/Default-568h@2x.png
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/bin/iPhone/Debug/POCiOS.exe.mdb
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/bin/iPhone/Debug/POCiOS.exe
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/POCiOS.exe
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/POCiOS.exe.mdb
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/UIViewController-X5Q-Ot-kPm.nib
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/ibtool/MainStoryboard.storyboardc/X5Q-Ot-kPm-view-XwM-dE-XXT.nib

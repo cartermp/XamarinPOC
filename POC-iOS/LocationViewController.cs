@@ -41,16 +41,14 @@ namespace POC_iOS
             new CLLocationManager().RequestWhenInUseAuthorization();
 
             MapView.ShowsUserLocation = true;
+			MapView.UserTrackingMode = MKUserTrackingMode.Follow;
 
-            MapView.DidUpdateUserLocation += (sender, args) =>
-            {
-                var coordinate = args.UserLocation.Coordinate;
-                var span = new MKCoordinateSpan(0.02, 0.02);
-                MapView.Region = new MKCoordinateRegion(coordinate, span);
-                var description = string.Format("Lat: {0:0.0000}, Long: {1:0.0000}",
-                    coordinate.Latitude, coordinate.Longitude);
-                this.Title = description;
-            };
+			MapView.DidUpdateUserLocation += (sender, args) =>
+			{
+				var coordinate = args.UserLocation.Coordinate;
+				this.LocationLabel.Text = string.Format("Lat: {0:0.0000}, Long: {1:0.0000}",
+					coordinate.Latitude, coordinate.Longitude);
+			};
         }
 
         public override void ViewDidAppear(bool animated)

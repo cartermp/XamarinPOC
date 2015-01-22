@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC-iOS", "POC-iOS.csproj", "{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Release|iPhone.Build.0 = Release|iPhone
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{9128CCA2-68D9-40EB-A02C-51ADC9B4139D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

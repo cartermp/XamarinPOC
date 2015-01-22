@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2838B7C60000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC9C4640000000000000000 /* UIKit.framework */; };
+		2805D4AA0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B96E1480000000000000000 /* MapKit.framework */; };
+		3D393D420000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA49E0000000000000000000 /* Foundation.framework */; };
+		30A41F8B0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34352C290000000000000000 /* CoreGraphics.framework */; };
+		1925E0690000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB6ED070000000000000000 /* Info.plist */; };
+		2E5949010000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EA559F0000000000000000 /* MainStoryboard.storyboard */; };
+		1C8409EB0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 201516890000000000000000 /* Default-568h@2x.png */; };
+		AAECAD500000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3FD77300000000000000000 /* Entitlements.plist */; };
+		3E19AD1E0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB9BC00000000000000000 /* AppDelegate.h */; };
+		3F95DEC30000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EB6100000000000000000 /* AppDelegate.m */; };
+		185A53F90000000000000000 /* LocationViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB60970000000000000000 /* LocationViewController.h */; };
+		8493A2B00000000000000000 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA46C900000000000000000 /* LocationViewController.m */; };
+		9F84EEC00000000000000000 /* RootViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = D895B8A00000000000000000 /* RootViewController.h */; };
+		364117F90000000000000000 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D224970000000000000000 /* RootViewController.m */; };
+		37F02CBA0000000000000000 /* ImageViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3B8139580000000000000000 /* ImageViewController.h */; };
+		1D16DC8B0000000000000000 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E9290000000000000000 /* ImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2820BBE50000000000000000 /* POC-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "POC-iOS.app"; path = "POC-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC9C4640000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2B96E1480000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		CA49E0000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		34352C290000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		1CB6ED070000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		31EA559F0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		201516890000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E3FD77300000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		1AAB9BC00000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		326EB6100000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		1BEB60970000000000000000 /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LocationViewController.h"; path = "LocationViewController.h"; sourceTree = "<group>"; };
+		BDA46C900000000000000000 /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LocationViewController.m"; path = "LocationViewController.m"; sourceTree = "<group>"; };
+		D895B8A00000000000000000 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RootViewController.h"; path = "RootViewController.h"; sourceTree = "<group>"; };
+		39D224970000000000000000 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RootViewController.m"; path = "RootViewController.m"; sourceTree = "<group>"; };
+		3B8139580000000000000000 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ImageViewController.h"; path = "ImageViewController.h"; sourceTree = "<group>"; };
+		20A7E9290000000000000000 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ImageViewController.m"; path = "ImageViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3697D1790000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2838B7C60000000000000000 /* UIKit.framework in Frameworks */,
+				2805D4AA0000000000000000 /* MapKit.framework in Frameworks */,
+				3D393D420000000000000000 /* Foundation.framework in Frameworks */,
+				30A41F8B0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B143070000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				14AF75300000000000000000 /* POC-iOS */,
+				216468E10000000000000000 /* Frameworks */,
+				BFE1D2D00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE1D2D00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2820BBE50000000000000000 /* POC-iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		216468E10000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC9C4640000000000000000 /* UIKit.framework */,
+				2B96E1480000000000000000 /* MapKit.framework */,
+				CA49E0000000000000000000 /* Foundation.framework */,
+				34352C290000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		14AF75300000000000000000 /* POC-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB9BC00000000000000000 /* AppDelegate.h */,
+				201516890000000000000000 /* Default-568h@2x.png */,
+				E3FD77300000000000000000 /* Entitlements.plist */,
+				3B8139580000000000000000 /* ImageViewController.h */,
+				1CB6ED070000000000000000 /* Info.plist */,
+				1BEB60970000000000000000 /* LocationViewController.h */,
+				31EA559F0000000000000000 /* MainStoryboard.storyboard */,
+				D895B8A00000000000000000 /* RootViewController.h */,
+				177D6A000000000000000000 /* Supporting Files */,
+			);
+			name = "POC-iOS";
+			sourceTree = "<group>";
+		};
+		177D6A000000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				326EB6100000000000000000 /* AppDelegate.m */,
+				20A7E9290000000000000000 /* ImageViewController.m */,
+				BDA46C900000000000000000 /* LocationViewController.m */,
+				39D224970000000000000000 /* RootViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BAF5AD0000000000000000 /* POC-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6D960B0000000000000000 /* Build configuration list for PBXNativeTarget "POC-iOS" */;
+			buildPhases = (
+				24C292630000000000000000 /* Sources */,
+				3697D1790000000000000000 /* Frameworks */,
+				DAD31EE00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-iOS";
+			productName = "POC-iOS";
+			productReference = 2820BBE50000000000000000 /* POC-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D07CFD30000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 12BA70310000000000000000 /* Build configuration list for PBXProject "POC-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16B143070000000000000000;
+			productRefGroup = BFE1D2D00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BAF5AD0000000000000000 /* POC-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD31EE00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925E0690000000000000000 /* Info.plist in Resources */,
+				2E5949010000000000000000 /* MainStoryboard.storyboard in Resources */,
+				1C8409EB0000000000000000 /* Default-568h@2x.png in Resources */,
+				AAECAD500000000000000000 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C292630000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E19AD1E0000000000000000 /* AppDelegate.h in Sources */,
+				3F95DEC30000000000000000 /* AppDelegate.m in Sources */,
+				185A53F90000000000000000 /* LocationViewController.h in Sources */,
+				8493A2B00000000000000000 /* LocationViewController.m in Sources */,
+				9F84EEC00000000000000000 /* RootViewController.h in Sources */,
+				364117F90000000000000000 /* RootViewController.m in Sources */,
+				37F02CBA0000000000000000 /* ImageViewController.h in Sources */,
+				1D16DC8B0000000000000000 /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E120020000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		8074A5700000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "POC-iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12BA70310000000000000000 /* Build configuration list for PBXProject "POC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E120020000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		1D6D960B0000000000000000 /* Build configuration list for PBXNativeTarget "POC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8074A5700000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D07CFD30000000000000000 /* Project object */;
+}

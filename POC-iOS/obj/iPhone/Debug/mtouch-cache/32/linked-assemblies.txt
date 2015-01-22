@@ -1,0 +1,4 @@
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/mtouch-cache/32/Link/System.dll
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/mtouch-cache/32/Link/mscorlib.dll
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/mtouch-cache/32/Link/POCiOS.exe
+/Users/rikkigibson/Documents/XamarinPOC/POC-iOS/obj/iPhone/Debug/mtouch-cache/32/Link/Xamarin.iOS.dll
